@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { MapPin, Phone, Clock, MessageSquare, ExternalLink } from "lucide-react";
 
 export default function ContactSection() {
-  const address = "5, Folashade Abiodun Street, New Ipaja Residential Scheme, Joke Ayo Busstop, A.I.T Estate, Alagbado, Lagos State, Nigeria";
+  const address = "5, Folashade Abiodun Street, New Ipaja Residential Scheme, Joke Ayo Busstop, A.I.T. Estate, Alagbado, Lagos State, Nigeria";
   const whatsappNumber = "08034883697";
   const whatsappUrl = `https://wa.me/2348034883697?text=${encodeURIComponent("Hello, I'm interested in the products I saw on your website.")}`;
   const mapEmbedUrl = `https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d31706.367446399403!2d3.2206450547152694!3d6.610103661850004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s5%2CFolashade%20Abiodun%20Street%2C%20New%20Ipaja%20Residential%20Scheme%2C%20Joke%20Ayo%20Busstop%2C%20Alagbado%2C%20Lagos%20State!5e0!3m2!1sen!2sng!4v1784594092873!5m2!1sen!2sng`;

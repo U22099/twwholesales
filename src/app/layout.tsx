@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     template: "%s | TW Wholesales Store",
   },
   description:
-    "TW Wholesales Store is Lagos' premier wholesale supplier for luxury men's footwear, Fernando Melo half-shoes, chunky lug-sole loafers, Versse braided dumpling bags, and Chrisbella 2-in-1 dome handbags. Visit us at 5, Folashade Abiodun Street, Joke Ayo Busstop, Alagbado, Lagos.",
+    "TW Wholesales Store is Lagos' premier wholesale supplier for luxury men's footwear, Fernando Melo half-shoes, chunky lug-sole loafers, Versse braided dumpling bags, and Chrisbella 2-in-1 dome handbags. Visit us at 5, Folashade Abiodun Street, Joke Ayo Busstop, A.I.T. Estate, Alagbado, Lagos.",
   keywords: [
     "TW Wholesales Store",
     "TW Wholesales",
@@ -105,7 +105,7 @@ export default function RootLayout({
     address: {
       "@type": "PostalAddress",
       streetAddress:
-        "5, Folashade Abiodun Street, New Ipaja Residential Scheme, Joke Ayo Busstop, A.I.T Estate.",
+        "5, Folashade Abiodun Street, New Ipaja Residential Scheme, Joke Ayo Busstop, A.I.T. Estate.",
       addressLocality: "Alagbado",
       addressRegion: "Lagos State",
       addressCountry: "NG",
