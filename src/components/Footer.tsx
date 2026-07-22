@@ -49,7 +49,7 @@ export default function Footer() {
               Got questions? Connect directly with our wholesale representative.
             </p>
             <a
-              href="https://wa.me/2348034883697"
+              href={`https://wa.me/2348034883697?text=${encodeURIComponent("Hello, I'm interested in the products I saw on your website.")}`}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-xs font-bold text-white uppercase tracking-widest border-b border-gold pb-1 hover:text-gold hover:border-white transition-colors duration-300"

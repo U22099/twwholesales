@@ -59,7 +59,7 @@ export default function Navbar() {
             <motion.a
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              href="https://wa.me/2348034883697"
+              href={`https://wa.me/2348034883697?text=${encodeURIComponent("Hello, I'm interested in the products I saw on your website.")}`}
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 bg-charcoal text-cream-light hover:bg-gold hover:text-charcoal px-6 py-2.5 rounded-full text-xs font-semibold uppercase tracking-widest transition-colors duration-300 shadow-md"
@@ -105,7 +105,7 @@ export default function Navbar() {
             </div>
             <div className="pt-8 border-t border-cream-accent">
               <a
-                href="https://wa.me/2348034883697"
+                href={`https://wa.me/2348034883697?text=${encodeURIComponent("Hello, I'm interested in the products I saw on your website.")}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-3 bg-charcoal text-cream-light px-8 py-4 rounded-full text-sm font-semibold uppercase tracking-widest"

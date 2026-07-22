@@ -105,7 +105,7 @@ export default function RootLayout({
     address: {
       "@type": "PostalAddress",
       streetAddress:
-        "5, Folashade Abiodun Street, New Ipaja Residential Scheme, Joke Ayo Busstop",
+        "5, Folashade Abiodun Street, New Ipaja Residential Scheme, Joke Ayo Busstop, A.I.T Estate.",
       addressLocality: "Alagbado",
       addressRegion: "Lagos State",
       addressCountry: "NG",

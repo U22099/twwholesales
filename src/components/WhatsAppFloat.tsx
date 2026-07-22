@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { MessageCircleCode } from "lucide-react";
 
 export default function WhatsAppFloat() {
-  const whatsappUrl = "https://wa.me/2348034883697";
+  const whatsappUrl = `https://wa.me/2348034883697?text=${encodeURIComponent("Hello, I'm interested in the products I saw on your website.")}`;
 
   return (
     <motion.div
