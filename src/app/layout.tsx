@@ -54,7 +54,7 @@ export const metadata: Metadata = {
     siteName: "TW Wholesales Store",
     images: [
       {
-        url: "/logo.png",
+        url: `${siteUrl}/logo.png`,
         width: 1200,
         height: 630,
         alt: "TW Wholesales Store Logo",
@@ -68,7 +68,7 @@ export const metadata: Metadata = {
     title: "TW Wholesales Store | Luxury Wholesale Footwear & Handbags",
     description:
       "Top supplier of female designer bags and luxury footwear in Lagos, Nigeria.",
-    images: ["/logo.png"],
+    images: [`${siteUrl}/logo.png`],
   },
   robots: {
     index: true,
@@ -82,9 +82,9 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    icon: "/logo.png",
-    shortcut: "/logo.png",
-    apple: "/logo.png",
+    icon: `${siteUrl}/logo.png`,
+    shortcut: `${siteUrl}/logo.png`,
+    apple: `${siteUrl}/logo.png`,
   },
 };
 
