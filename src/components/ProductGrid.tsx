@@ -106,7 +106,7 @@ export default function ProductGrid() {
     },
   ];
 
-  const [filteredProducts, setFilteredProducts] = useState<Product[]>();
+  const [filteredProducts, setFilteredProducts] = useState<Product[]>(products);
 
  useEffect(() => {
     setFilteredProducts(
