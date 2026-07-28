@@ -1,7 +1,7 @@
 "use client";
 
-import { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { useState, useEffect } from "react";
+import { motion } from "framer-motion";
 import ProductCard, { Product } from "./ProductCard";
 
 export default function ProductGrid() {
@@ -106,10 +106,14 @@ export default function ProductGrid() {
     },
   ];
 
-  const filteredProducts =
-    filter === "all"
+  const [filteredProducts, setFilteredProducts] = useState<Product[]>();
+
+ useEffect(() => {
+    setFilteredProducts(
+     filter === "all"
       ? products
-      : products.filter((p) => p.category === filter);
+      : products.filter((p) => p.category === filter));
+ }, [filter]);
 
   return (
     <section id="collection" className="py-16 sm:py-24 bg-cream-light">
@@ -167,14 +171,11 @@ export default function ProductGrid() {
         </div>
 
         <motion.div
-          layout
           className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 lg:gap-8"
         >
-          <AnimatePresence mode="popLayout">
             {filteredProducts.map((product) => (
               <ProductCard key={product.id} product={product} />
             ))}
-          </AnimatePresence>
         </motion.div>
       </div>
     </section>
