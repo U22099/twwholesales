@@ -32,12 +32,11 @@ export default function ProductCard({ product }: ProductCardProps) {
 
   return (
     <motion.div
-      layout
-      initial={{ opacity: 0, y: 20 }}
+      {/* initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       exit={{ opacity: 0, scale: 0.9 }}
-      transition={{ duration: 0.4 }}
+      transition={{ duration: 0.4 }} */}
       className="group relative bg-white rounded-2xl overflow-hidden border border-cream-accent/60 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between"
     >
       <div className="relative aspect-square bg-cream-dark overflow-hidden flex items-center justify-center">
